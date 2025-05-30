@@ -1,0 +1,12 @@
+[project]
+name = "ai-translator"
+version = "0.1.0"
+description = "My First AI Agent"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "streamlit",
+    "google-generativeai",
+    "translate"
+]
